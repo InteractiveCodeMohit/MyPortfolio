@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script type="text/javascript" src="inc/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="inc/jquery-ui-1.8.8.custom.min.js"></script>
+<script type="text/javascript" src="inc/treddi.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>MY PORTFOLIO</title>
+</head>
+<body>
+
+    <div class="main-container">
+    <header>
+        <nav >
+
+            <div class="logo">
+                <!-- <img src=""  alt="Portfolio" > -->
+               <a href="index.html">Personal Portfolio</a> 
+            </div>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li ><a  href="#feature-sec" onclick="myFunction()"> Feature</a></li>
+                <li><a  href="#resume-sec">My Resume</a></li>
+                <li><a  href="#project-sec">Project</a></li>
+                <li><a  href="#contact">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <div class="d-btn">
+                <button id="d-btn"><a href="images/Mohit(CV).pdf" download><i class="cv"><img src="images/download.gif" alt="CV" width="30px" height="30px" ></i> Download CV</a></button>
+            </div>
+        </nav>
+        <button class="toggle-btn" id="clk">Click On</button>
+    </header>
+<section class="profile" id="profile-sec">
+    <div class="prof-txt">
+       <div class="intro-bx">
+        <span class="wel">WELCOME TO MY WORLD</span>
+        <strong>Hi,</strong>
+        <strong>I'm <span class="red">Mohit</span></strong>
+        <strong> <span class="red">A Professional Developer</span></strong>
+        <p class="para">Highly skilled and experienced web developer with a deep understanding of web design principles and user experience. I specialize in designing, building, and maintaining websites and web applications GTM tag setup using various programming languages such as HTML, CSS, JavaScript and React.js, With strong communication and problem-solving skills.</p>
+        
+       <div class="find">
+           <h3>CONNECT WITH ME</h3>
+           <div class="social">
+            <ul>
+                
+                <li><a href="https://www.linkedin.com/in/mohit-rai-30309a224" target="bla
+                    "><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="64px" height="64px">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"/></svg></i></a></li>
+                <li><a href="https://github.com/InteractiveCodeMohit" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="64px" height="64px"><path d="M 46.792969 22.089844 L 27.910156 3.207031 C 27.109375 2.402344 26.054688 2 25 2 C 23.945313 2 22.890625 2.402344 22.089844 3.207031 L 18.355469 6.941406 L 22.976563 11.5625 C 24.511719 10.660156 26.511719 10.855469 27.828125 12.171875 C 29.144531 13.488281 29.335938 15.488281 28.433594 17.019531 L 32.976563 21.5625 C 34.511719 20.660156 36.511719 20.855469 37.828125 22.171875 C 39.390625 23.734375 39.390625 26.265625 37.828125 27.828125 C 36.265625 29.390625 33.734375 29.390625 32.171875 27.828125 C 30.855469 26.511719 30.660156 24.511719 31.5625 22.976563 L 27.019531 18.433594 C 26.695313 18.625 26.355469 18.765625 26 18.855469 L 26 31.140625 C 27.722656 31.585938 29 33.136719 29 35 C 29 37.210938 27.210938 39 25 39 C 22.789063 39 21 37.210938 21 35 C 21 33.136719 22.277344 31.585938 24 31.140625 L 24 18.855469 C 23.332031 18.683594 22.695313 18.351563 22.171875 17.828125 C 20.855469 16.511719 20.664063 14.511719 21.566406 12.980469 L 16.941406 8.355469 L 3.207031 22.089844 C 1.597656 23.695313 1.597656 26.304688 3.207031 27.910156 L 22.089844 46.792969 C 22.890625 47.597656 23.945313 48 25 48 C 26.054688 48 27.109375 47.597656 27.910156 46.792969 L 46.792969 27.910156 C 48.402344 26.304688 48.402344 23.695313 46.792969 22.089844 Z"/></svg></i></a></li>
+                <li><a href="https://twitter.com/codemohit81982?t=v8_RjftEtVFWUfCq9YcehQ&s=09" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="64px" height="64px"><path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"/></svg></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100009108922486" target="_blank"><i class="icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><path d="M32,6C17.642,6,6,17.642,6,32c0,13.035,9.603,23.799,22.113,25.679V38.89H21.68v-6.834h6.433v-4.548	c0-7.529,3.668-10.833,9.926-10.833c2.996,0,4.583,0.223,5.332,0.323v5.965h-4.268c-2.656,0-3.584,2.52-3.584,5.358v3.735h7.785	l-1.055,6.834h-6.73v18.843C48.209,56.013,58,45.163,58,32C58,17.642,46.359,6,32,6z"/></svg></i></a></li>
+                <li><a href="https://www.instagram.com/invites/contact/?i=1nr4lrtkr3fs1&utm_content=2rjvh3o" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="64px" height="64px">    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"/></svg></i></a></li>
+            </ul>
+
+           </div>
+       </div>
+       </div>
+
+       <div class="intro-bx-2">
+        <div class="img-bx">
+            <img src="images/profile2.png" width="710px" height="560px" alt="Profile">
+
+        </div>
+       </div>
+    </div>
+</section>
+<div class="bt-line">
+
+</div>
+<section class="feature" id="feature-sec" >
+<div class="feature-tab">
+    <h4>FEATURES</h4>
+    <h1>What I Do</h1>
+    <div class="feature-bx">
+<ul>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M400 571q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM80 892v-94q0-35 17.5-63t50.5-43q72-32 133.5-46T400 632h23q-6 14-9 27.5t-5 32.5h-9q-58 0-113.5 12.5T172 746q-16 8-24 22.5t-8 29.5v34h269q5 18 12 32.5t17 27.5H80Zm587 44-10-66q-17-5-34.5-14.5T593 834l-55 12-25-42 47-44q-2-9-2-25t2-25l-47-44 25-42 55 12q12-12 29.5-21.5T657 600l10-66h54l10 66q17 5 34.5 14.5T795 636l55-12 25 42-47 44q2 9 2 25t-2 25l47 44-25 42-55-12q-12 12-29.5 21.5T731 870l-10 66h-54Zm27-121q36 0 58-22t22-58q0-36-22-58t-58-22q-36 0-58 22t-22 58q0 36 22 58t58 22ZM400 511q39 0 64.5-25.5T490 421q0-39-25.5-64.5T400 331q-39 0-64.5 25.5T310 421q0 39 25.5 64.5T400 511Zm0-90Zm9 411Z"/></svg>
+        <div class="feat">
+            <h2>Project Management</h2>
+           <p class="para">Project management is the application of processes, methods, skills, knowledge and experience to achieve specific project objectives according to the project acceptance criteria within agreed parameters. Project management has final deliverables that are constrained to a finite timescale and budget.</p>
+        </div>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h461V673H140v163Zm521 0h159V450H661v386ZM140 613h461V450H140v163Z"/></svg>
+        <div class="feat">
+            
+            <h2>Web Development</h2>
+           <p class="para">Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. </p>
+        </div>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M260 1016q-24.75 0-42.375-17.625T200 956V196q0-24.75 17.625-42.375T260 136h440q24.75 0 42.375 17.625T760 196v146h-60v-56H260v580h440v-56h60v146q0 24.75-17.625 42.375T700 1016H260Zm0-90v30h440v-30H260Zm441-202-5-46q-12-3-22-9t-17-14l-40 19-29-46 36-27q-5-11-5-27t5-27l-36-27 29-46 40 19q7-8 16-14t23-9l5-46h56l5 46q14 3 23 9t16 14l40-19 29 46-36 27q5 11 5 27t-5 27l36 27-29 46-40-19q-7 8-17 14t-22 9l-5 46h-56Zm28-84q28 0 47-19t19-47q0-28-19-47t-47-19q-28 0-47 19t-19 47q0 28 19 47t47 19ZM260 226h440v-30H260v30Zm0 0v-30 30Zm0 700v30-30Z"/></svg>
+        <div class="feat">
+            
+            <h2>Web App Development</h2>
+           <p class="para">Web application development is the creation of application programs that reside on remote servers and are delivered to the user's device over the Internet. A(web app) does not need to be downloaded and is instead ccessed through a network.</p>
+        </div>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M80 381h140v390H80V381Zm200-85h400v560H280V296Zm60 60v440-440Zm400 25h140v390H740V381Zm-400-25v440h280V356H340Z"/></svg>
+        <div class="feat">
+            
+            <h2>Responsive Web</h2>
+           <p class="para">Responsive web design is a web development approach that creates dynamic changes to the appearance of a website, depending on the screen size and orientation of the device being used to view it, A responsive website has a fluid and flexible layout which adjusts according to screen size.</p>
+        </div>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M80 896V256h800v640H80Zm603-443h137V316H683v137Zm0 186h137V513H683v126ZM140 836h483V316H140v520Zm543 0h137V699H683v137Z"/></svg>
+        <div class="feat">
+            
+            <h2>WebSite Design</h2>
+           <p class="para">The art of planning and arranging content on a website so that it can be shared and accessed online with the world. A combination of aesthetic and functional elements, web design is a type of digital design that determines the look of a website such as its colors, fonts, graphics and user interface</p>
+        </div>
+    </li>
+    <li>
+        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m89 807-49-36 188-300 119.571 140L507 353l109 162q-16 2-31 6.5T555 532l-45-69-152.557 249L236 571 89 807Zm788 209L743 882q-21 15-45.5 23t-50.5 8q-70.833 0-120.417-49.618Q477 813.765 477 742.882 477 672 526.618 622.5q49.617-49.5 120.5-49.5Q718 573 767.5 622.583 817 672.167 817 743q0 26-8.5 50.5T786 840.448L920 973l-43 43ZM646.859 853Q693 853 725 821.141q32-31.859 32-78T725.141 665q-31.859-32-78-32T569 664.859q-32 31.859-32 78T568.859 821q31.859 32 78 32ZM721 525q-15-6-31-8t-33-4l214-337 49 36-199 313Z"/></svg>
+        <div class="feat">
+            
+            <h2>Google Analytics</h2>
+           <p class="para">Google Analytics is a platform that collects data from your websites and apps to create reports that provide insights into your business.Google Analytics is a web analytics service offered by Google that tracks and reports website traffic, currently as a platform inside the Google Marketing Platform brand.</p>
+        </div>
+    </li>
+    
+</ul>
+    </div>
+</div>
+</section>
+<div class="bt-line">
+
+</div>
+
+<section class="resume" id="resume-sec">
+<div class="myresume">
+    <span class="year-ex">6 MONTH'S OF EXPERIENCE</span>
+ <h1>My Resume</h1>
+ 
+</div>
+
+<div class="result">
+<div class="dis">
+<div class="education">
+<h2>Education Quality</h2>
+<div class="deg">
+    
+    <ul>
+        
+        <li>
+            <div class="line"> 
+                <strong>Matriculation</strong>
+            <div class="info">S.I.B.S.NATIONAL INTER COLLAGE (2013 - 2015)</div>
+        </div>
+        </li>
+   
+        <li>
+            <div class="line">
+                <strong>InterMediate  Colleges</strong>
+            <div class="info">S.I.B.S.NATIONAL INTER COLLAGE (2015 - 2017)</div>
+        </div>
+        </li>
+        <li>
+            <div class="line"> 
+                <strong>Bachelors's in Computer Application (BCA) </strong>
+            <div class="info">Mahatma Gandhi Kashi Vidyapith University (2017 - 2020)</div>
+            </div>
+        </li>
+       
+        <li>
+            <div class="line"> 
+                <strong>Certificate Courses </strong>
+            <div class="info">Google Digit Marketing </div>
+            <div class="info">React Router, Redux </div>
+            </div>
+        </li>
+        
+    </ul>
+
+</div>
+</div>
+
+<div class="experiance">
+ <h2>Job Experience</h2>
+    <div class="job">
+        <ul>
+            <li>
+                <div class="line">
+                <strong>Onkar Infotech (14 Dec 22) </strong>
+                <div class="add"> <span class="ress"> Address:</span> 117, Udyog Vihar Phase 1, Udyog Vihar, Sector 20, Gurugram, Haryana 122016</div>
+            </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    
+  
+</div>
+</div>
+<div class="dev-skil">
+<div class="Devlop">
+    <h4>Development Skills</h4>
+    <ul>
+        <li>
+            <h5>HTML</h5>
+            <div class="progress">
+                <div class="percent html">90%</div>
+            </div>
+        </li>
+        <li>
+            <h5>CSS</h5>
+            <div class="progress">
+                <div class="percent css" >80%</div>
+            </div>
+        </li>
+        <li>
+            <h5>JavaScript</h5>
+            <div class="progress">
+                <div class="percent js">50%</div>
+            </div>
+        </li>
+        <li>
+            <h5>jQuery</h5>
+            <div class="progress">
+                <div class="percent jqry">70%</div>
+            </div>
+        </li>
+        <li>
+            <h5>React.Js</h5>
+            <div class="progress">
+                <div class="percent rj">60%</div>
+            </div>
+        </li>
+        <li>
+            <h5>GitHub</h5>
+            <div class="progress">
+                <div class="percent git">55%</div>
+            </div>
+        </li>
+      
+    </ul>
+
+</div>
+
+<div class="skill">
+    <h5>Other skills</h5>
+    <ul>
+            <li>
+                <h5>Microsoft Word</h5>
+                <div class="progress">
+                    <div class="percent wrd">70%</div>
+                </div>
+            </li>
+            <li>
+                <h5>Microsoft Excel</h5>
+                <div class="progress">
+                    <div class="percent exl">50%</div>
+                </div>
+            </li>
+       
+    </ul>
+</div>
+</section>
+<div class="bt-line">
+
+</div>
+<section class="project" id="project-sec">
+<div class="proj">
+    <span class="visit">VISIT MY PROJECT AND KEEP YOUR FEEDBACK</span>
+<h4>MY PROJECT</h4>
+</div>
+<div class="proj-box">
+    <ul>
+    <li>
+        <a href="https://www.southalltravel.co.uk/" target="_blank" >
+                    <div class="vist-tab">
+            <img src="images/southall.jpg" width="400px" height="330px" alt="project-image">
+        </div>
+        <div class="proj-name">
+            <h5>Southall Travel</h5>
+            </a>
+        </div>
+   
+    </li>
+    <li>
+        <a href="https://www.traveltrolley.co.uk/" target="_blank" >
+        <div class="vist-tab">
+            <img src="images/traveltrolley.jpg" width="400px" height="330px" alt="project-image">
+        </div>
+        <div class="proj-name">
+            <h5> Travel Trolley</h5>
+           
+            </a>
+        </div>
+    </li>
+    <li>
+        <a href="https://www.flysharp.com/" target="_blank" >
+        <div class="vist-tab">
+            <img src="images/fly-sharp.jpg" width="400px" height="330px" alt="project-image">
+        </div>
+        <div class="proj-name">
+            <h5>Fly Sharp</h5>
+            </a>
+        </div>
+    </li>
+    <li>
+        <a href="https://www.awayholidays.co.uk/" target="_blank" >
+        <div class="vist-tab">
+            <img src="images/away-holidays.jpg" width="400px" height="330px" alt="project-image">
+        </div>
+        <div class="proj-name">
+            <h5>Away Holidays</h5>
+            </a>
+        </div>
+    </li>
+    <li>
+        <a href="https://interactivecodemohit.github.io/Lang-project/" target="_blank">
+        <div class="vist-tab">
+            <img src="images/lang-project.jpg" width="400px" height="330px" alt="project-image">
+        </div>
+        <div class="proj-name">
+            <h5>Lang Project</h5>    
+             </a>
+        </div>
+    </li>
+   
+   
+</ul>
+</div>
+
+</section>
+<div class="bt-line">
+
+</div>
+
+
+
+<section id="contact">
+    <h6>Contact With Me</h6>
+    <div class="cont">
+        <div class="cont-bx">
+            <div class="connect">
+                <img src="images/smile.gif" width="300px" height="174px" alt="connect">
+            </div>
+            <div class="cont-dtl"> 
+                <span class="cal">Web Developer</span>
+                <span class="cal-me">I am available for work. Connect with me via and call in to my account.</span>
+
+                <div class="tel">
+                     Phone:<a href="tel:7619820593">7619820593</a>
+                </div>
+                <div class="tel">
+                     Email:<a  href="mailto:mohitrai827@gmail.com"  type="email">mohitrai827@gmail.com</a>
+                </div>
+
+            </div>
+            <div class="find">
+                <h3>CONNECT WITH ME</h3>
+                <div class="social-2">
+                    <ul>
+                        
+                        <li><a href="https://www.linkedin.com/in/mohit-rai-30309a224" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="64px" height="64px">    <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"/></svg></i></a></li>
+                        <li><a href="https://github.com/InteractiveCodeMohit" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="64px" height="64px"><path d="M 46.792969 22.089844 L 27.910156 3.207031 C 27.109375 2.402344 26.054688 2 25 2 C 23.945313 2 22.890625 2.402344 22.089844 3.207031 L 18.355469 6.941406 L 22.976563 11.5625 C 24.511719 10.660156 26.511719 10.855469 27.828125 12.171875 C 29.144531 13.488281 29.335938 15.488281 28.433594 17.019531 L 32.976563 21.5625 C 34.511719 20.660156 36.511719 20.855469 37.828125 22.171875 C 39.390625 23.734375 39.390625 26.265625 37.828125 27.828125 C 36.265625 29.390625 33.734375 29.390625 32.171875 27.828125 C 30.855469 26.511719 30.660156 24.511719 31.5625 22.976563 L 27.019531 18.433594 C 26.695313 18.625 26.355469 18.765625 26 18.855469 L 26 31.140625 C 27.722656 31.585938 29 33.136719 29 35 C 29 37.210938 27.210938 39 25 39 C 22.789063 39 21 37.210938 21 35 C 21 33.136719 22.277344 31.585938 24 31.140625 L 24 18.855469 C 23.332031 18.683594 22.695313 18.351563 22.171875 17.828125 C 20.855469 16.511719 20.664063 14.511719 21.566406 12.980469 L 16.941406 8.355469 L 3.207031 22.089844 C 1.597656 23.695313 1.597656 26.304688 3.207031 27.910156 L 22.089844 46.792969 C 22.890625 47.597656 23.945313 48 25 48 C 26.054688 48 27.109375 47.597656 27.910156 46.792969 L 46.792969 27.910156 C 48.402344 26.304688 48.402344 23.695313 46.792969 22.089844 Z"/></svg></i></a></li>
+                        <li><a href="https://twitter.com/codemohit81982?t=v8_RjftEtVFWUfCq9YcehQ&s=09" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="64px" height="64px"><path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"/></svg></i></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100009108922486" target="_blank"><i class="icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" width="64px" height="64px"><path d="M32,6C17.642,6,6,17.642,6,32c0,13.035,9.603,23.799,22.113,25.679V38.89H21.68v-6.834h6.433v-4.548	c0-7.529,3.668-10.833,9.926-10.833c2.996,0,4.583,0.223,5.332,0.323v5.965h-4.268c-2.656,0-3.584,2.52-3.584,5.358v3.735h7.785	l-1.055,6.834h-6.73v18.843C48.209,56.013,58,45.163,58,32C58,17.642,46.359,6,32,6z"/></svg></i></a></li>
+                        <li><a href="https://www.instagram.com/invites/contact/?i=1nr4lrtkr3fs1&utm_content=2rjvh3o" target="_blank"><i class="icon"><?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="64px" height="64px">    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"/></svg></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <form action="mailto:mohitrai827@gmail.com"  >
+            <div class="flx">
+            <label for="name">Your Name <input type="text"></label>
+            <label for="phone">Phone Number <input type="text"></label>
+        </div>
+    
+        <label for="Email">EMAIL <input class="email" type="email"></label>
+        <label for="subject">SUBJECT <input class="sub" type="text"></label>
+        <label for="message">YOUR MESSAGE <textarea class="txt" type="text"></textarea></label>
+
+       <button class="sub-btn">Submit</button>
+
+        </form>
+        
+    
+
+
+    </div>
+
+
+
+
+
+</section>
+<div class="bt-line">
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+<div class="foot">
+    <div class="foot-img">
+        <img src="images/profile2.png" width="150px" height="150px" alt=" profile">
+    </div>
+    <h6>Mohit Rai</h6>
+        <span class="cpy">&#169; 2023 All rights reserved by <a href="">Mohit Rai</a></span>
+
+</div>
+
+<div class="git">
+    <h6>GitHub Projects</h6>
+    <ol>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/Lang-project/" target="_blank">Lang Project</a>
+        </div>
+        </li>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/Restaurant/" target="_blank">Restaurant Project</a>
+        </div>
+        </li>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/Calculator/" target="_blank">Calculator Project</a>
+        </div>
+        </li>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/Textutils/" target="_blank">TextUtils Project</a>
+        </div>
+        </li>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/CheatSheet/" target="_blank">CheatSheet Project</a>
+        </div>
+        </li>
+        <li>
+            <div class="link">
+            <a class="pro-link" href="https://interactivecodemohit.github.io/Tic-Tac-Toe-game/" target="_blank">Tic-Tac-Toe-game </a>
+        </div>
+        </li>
+       
+        
+    </ol>
+</div>
+
+</footer>
+
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>

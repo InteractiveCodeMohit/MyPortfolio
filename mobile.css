@@ -1,0 +1,355 @@
+
+@media screen and (max-width: 1025px)  {
+
+
+
+    header{
+        width: 100%;
+        max-width: 1380px;
+        display: flex;
+        box-shadow: 0px 0px 10px 0px #767474;
+        background-color: #e5eaee;
+        position: fixed;
+        top: 0;
+        z-index: 7;
+        padding-top: 62px;
+    }
+    .toggle-btn{
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+
+    nav{
+        display: none;
+    flex: 100%;   
+    justify-content: space-around; 
+    left: 0;
+    right: 0;
+    position: absolute;
+    }
+    .logo{
+        flex: 100%;
+    }
+    nav ul{
+        justify-content: center;
+        flex: 0 0 100%;
+    }
+    nav ul li{
+        font-size: 1em;
+      padding: 10px;
+    }
+    .d-btn{
+        flex: 0 0 20%;
+    text-align: center;
+    }
+    
+    
+    
+    /* profile bx start */
+    
+    .profile{
+        /* margin-top: 190px; */
+    }
+    .intro-bx .wel{
+    font-size: 1em;
+    }
+    .intro-bx strong{
+    font-size: 2em;
+    }
+    
+    .intro-bx .find {
+        margin-top: 33px;
+    }
+    .bt-line {
+        margin-bottom: 20px;
+    }
+    
+    .bt-line {
+    width: 100%;
+        max-width: 626px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+       
+    }
+    /* profile bx  end */
+    
+    
+    
+    /* feature bx  end */
+    
+    .feature-tab {
+        width: 100%;
+    }
+    .feature-tab h4 {
+        padding: 0 14px;
+    }
+    .feature-tab h1{
+        padding: 14px;
+    }
+    .feature-bx ul li {
+        flex: 0 0 98%;
+        margin: 1%;
+    }
+    
+    /* feature bx  end */
+    
+    
+    
+    /* Resume section start  */
+    .resume{
+        width: 100%;
+    }
+    .resume h1{
+        font-size: 3em;
+    }
+     .education, .experiance, .Devlop, .skill {
+        flex: 0 0 95%;
+    }
+    
+    /* Reasume section end */
+    
+    
+    
+    /* project section start  */
+    .project{
+    width: 100%;
+    }
+    
+    
+    .project .visit{
+        font-size: 1em;
+    }
+    .project h4{
+       font-size: 2em;
+    }
+    
+    
+    .proj-box ul li {
+        flex: 0 0 96%;
+    }
+    
+    /* project section end */
+    
+    
+    /* Contact section start */
+    #contact{
+        width: 100%;
+    }
+    #contact h6{
+        font-size: 2.4em;
+    }
+    
+    
+    .cont-bx{
+        flex: 0 0 96%;
+    }
+    
+    form {
+        flex: 0 0 96%;
+    }
+    form label{
+    padding: 12px;
+    }
+    
+    
+    /* Contact section end */
+    
+    
+    
+    /* footer start  */
+    footer{
+        width: 100%;
+    }
+    footer .foot{
+        flex: 100%;
+    }
+    footer .git{
+        flex: 100%;
+    }
+    .git ol li{
+        flex: 0 0 47%;
+    }
+    
+    /* footer end */
+    
+    
+    }
+
+
+@media screen and (max-width: 768px)  {
+
+
+header{
+    width: 100%;
+    max-width: 1380px;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px #767474;
+    background-color: #e5eaee;
+    position: fixed;
+    top: 0;
+    z-index: 7;
+    padding-top: 62px;
+}
+.toggle-btn{
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+nav{
+    display: none;
+flex: 100%;   
+justify-content: space-around; 
+left: 0;
+    right: 0;
+    position: absolute;
+}
+.logo{
+    flex: 100%;
+}
+nav ul{
+    justify-content: center;
+    flex: 0 0 100%;
+}
+nav ul li{
+    font-size: 1em;
+  padding: 10px;
+}
+.d-btn{
+    flex: 0 0 20%;
+text-align: center;
+}
+
+
+/* profile bx start */
+
+.profile{
+    /* margin-top: 220px; */
+}
+.intro-bx .wel{
+font-size: 1em;
+}
+.intro-bx strong{
+font-size: 2em;
+}
+
+.intro-bx .find {
+    margin-top: 33px;
+}
+.bt-line {
+    margin-bottom: 20px;
+}
+
+.bt-line {
+width: 100%;
+    max-width: 626px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+   
+}
+/* profile bx  end */
+
+
+
+/* feature bx  end */
+
+.feature-tab {
+    width: 100%;
+}
+.feature-tab h4 {
+    padding: 0 14px;
+}
+.feature-tab h1{
+    padding: 14px;
+}
+.feature-bx ul li {
+    flex: 0 0 98%;
+    margin: 1%;
+}
+
+/* feature bx  end */
+
+
+
+/* Resume section start  */
+.resume{
+    width: 100%;
+}
+.resume h1{
+    font-size: 3em;
+}
+ .education, .experiance, .Devlop, .skill {
+    flex: 0 0 95%;
+}
+
+/* Reasume section end */
+
+
+
+/* project section start  */
+.project{
+width: 100%;
+}
+
+
+.project .visit{
+    font-size: 1em;
+}
+.project h4{
+   font-size: 2em;
+}
+
+
+.proj-box ul li {
+    flex: 0 0 96%;
+}
+
+/* project section end */
+
+
+/* Contact section start */
+#contact{
+    width: 100%;
+}
+#contact h6{
+    font-size: 2.4em;
+}
+
+
+.cont-bx{
+    flex: 0 0 96%;
+}
+
+form {
+    flex: 0 0 96%;
+}
+form label{
+padding: 12px;
+}
+
+
+/* Contact section end */
+
+
+
+/* footer start  */
+footer{
+    width: 100%;
+}
+footer .foot{
+    flex: 100%;
+}
+footer .git{
+    flex: 100%;
+}
+.git ol li{
+    flex: 0 0 47%;
+}
+
+/* footer end */
+
+
+}
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MY PORTFOLIO</title>
+<script type="text/javascript" src="inc/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="inc/jquery-ui-1.8.8.custom.min.js"></script>
+<script type="text/javascript" src="inc/treddi.js"></script>
+<link href="inc/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<script>
+$(document).ready(function(){
+		$('#ddd').dddgallery({		
+			//dimensioni box_principale
+			p_width: 620,
+			//impostazioni di default dei mini-box
+			min_width: 150,
+			max_width: 300,
+			porp_height: 0,
+			min_opacity: 0.2,
+			livel_range: 20	
+			});
+});
+</script>
+
+
+<div class="main-container">
+<header>
+    <nav>
+        <div class="logo">
+            <!-- <img src=""  alt="Portfolio" > -->
+            <a href="index.html">Personal Portfolio</a> 
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#feature">Feature</a></li>
+            <li><a href="#">Contact</a></li> -->
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <div class="d-btn">
+            <button id="d-btn"><a href="images/Mohit(CV).pdf" download><i class="cv"><img src="images/download2.gif" alt="CV" width="30px" height="30px" ></i> Download CV</a></button>
+        </div>
+    </nav>
+</header>
+
+<div class="mainwrap">
+
+<div id="ddd">
+    <div class="box box_principale">
+        <img  src="images/profile1.png" />
+    </div>
+    <div class="box">
+        <img  src="images/image1.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image2.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image3.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image4.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image5.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image7.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image8.jpg" />
+    </div>
+    <div class="box">
+        <img  src="images/image9.png" />
+    </div>
+    <div class="box">
+        <img  src="images/image.png" />
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
